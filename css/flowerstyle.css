@@ -1,0 +1,49 @@
+body {
+  background: #131b21;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gothic', cursive;
+  
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+svg#flower-frame {
+  height: 90vh;
+  width: 100%;
+}
+
+
+
+#Footer_group_1_,
+[id^=PinkFlowerGroup],
+[id^=BaseGroup] path,
+[id^=LeafGroup] path,
+path[id^=Stroke],
+g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^=Dots],
+[id^=Flourish] {
+  visibility: hidden;
+}
+.letter {
+  display: block;
+  color: red;
+  font-size: 1.5em;
+  font-family: 'Gothic', cursive;
+  text-anchor: middle;
+
+  cursor: pointer;
+  transition: fill 0.3s;
+
+}
